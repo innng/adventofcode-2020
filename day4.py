@@ -44,7 +44,7 @@ def validate_fields(line):
 
         if "ecl" in field:
             _, value = field.split(":")
-            if value not in ["amb", "blu", "brn", "gry", "grn", "hz", "oth"]:
+            if value not in ["amb", "blu", "brn", "gry", "grn", "hzl", "oth"]:
                 return False
 
         if "pid" in field:
